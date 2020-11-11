@@ -1,0 +1,17 @@
+
+.loop(int) automatically loops the song, and starts playing from the beginning
+- for the number listed
+- Notice: .loop(int) will play the song first, then loop it for the number of times
+
+Press l or L when nothing is playing
+- Play the current song and loop it
+
+Press l or L when song is playing and looping
+- stop the loop, finish the song playing
+
+Note: song is always looping infinitely so when lorL is pressed,
+it does not restart the song
+
+Note about isLopping()
+- empty parameter means infinite loop
+- int as parameter means loop than many times (can be advanced behaviour in player)

@@ -27,7 +27,7 @@ Processing.org has examples
 Addtional Examples of how mousePressed() can communicate with draw()
 - strokeWieght(brushSize); //populate brushsize in mousePressed but use strokeWieght() in draw()
 - "colouring book behaviour": load an image into the "button" for drawing as a background to draw overtop of, using image() in mousePressed where the rect() parameters for the background image() is the rect() for drawing
-  - this might need to be a procdure passing parameters to reuse the image code
+  - this might need to be a procedure passing parameters to reuse the image code
 - another?
 
 ---

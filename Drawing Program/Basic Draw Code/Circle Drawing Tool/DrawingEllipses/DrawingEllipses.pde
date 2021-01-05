@@ -1,7 +1,7 @@
 // Global Variables
 color ink, black=#000000;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
-float drawingDiameter;
+float drawingDiameter; //Needed for ellipses
 Boolean draw=false;
 
 void setup() {
@@ -13,7 +13,7 @@ void setup() {
   drawingSurfaceHeight = height*4/5;
   //
   ink = black; // example to change ink
-  drawingDiameter = width*1/100;
+  drawingDiameter = width*1/100; //Needed for ellipses
   //
   rect(drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight);
 }

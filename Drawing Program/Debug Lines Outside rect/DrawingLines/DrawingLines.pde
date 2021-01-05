@@ -1,7 +1,6 @@
 // Global Variables
 color ink, black=#000000;
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight;
-float drawingDiameter;
 Boolean draw=false;
 
 void setup() {
@@ -13,7 +12,6 @@ void setup() {
   drawingSurfaceHeight = height*4/5;
   //
   ink = black; // example to change ink
-  drawingDiameter = width*1/100;
   //
   rect(drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight);
 }

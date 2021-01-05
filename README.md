@@ -18,5 +18,8 @@ Continue with Final Special Project, to be discussed with Mr. Mercer
 Progression (**UNDER CONSTRUCTION**)
 - Complete Case Studies for Drawing and Music Programs
 - Complete Pseudo code and Rectangle GUI Layout (for inscribed 2D Shapes, Text, Images, and Interactive Buttons)
+- Review how to create drawing tools with virtual paper "button" (lines and circles)
+- *Work on Drawing Program everyday*
+- 
 
 ---

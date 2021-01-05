@@ -8,6 +8,11 @@ Start with drawing program and music program Case Studies,
 - then complete music program,
 - then add music and sound effects to drawing program
 
+Continue with Final Special Project, to be discussed with Mr. Mercer
+- Promotion Website as Example Project
+- Android Sideloading as Example Project
+- Highly Developed Drawing Program or Music Program
+
 ---
 
 Progression (**UNDER CONSTRUCTION**)

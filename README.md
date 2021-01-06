@@ -17,21 +17,23 @@ Continue with Final Special Project, to be discussed with Mr. Mercer
 
 Progression (**UNDER CONSTRUCTION**)
 - Complete Case Studies for Drawing and Music Programs
+  - Review Student Exemplars in Computer App Examples (https://github.com/Intro-CS-App-Dev-and-Deploy/Computer-App-Exemplars)
+  - Review Example of Pseudocode
 - Complete Pseudo code and Rectangle GUI Layout (for inscribed 2D Shapes, Text, Images, and Interactive Buttons)
 - Review how to create drawing tools with virtual paper "button" (lines and circles)
 - *Work on Drawing Program everyday*
+- Explore YouTube Audio Library (free music and sound effects), https://studio.youtube.com/channel/UCkhFasU2ZSgusy_b1l4bcHg/music
+  - Review my downloaded exemplar music files (meditative music, other music)
+  - Students able to use music they own (have rights to play)
 - Learning Minim Library to play music and sounds from within an app
   - installing the library to the IDE
   - adding the library to the program
 - Programming GUI for Music Player with keyPressed
 
 TBA
-- Review Student Exemplars in Computer App Examples (https://github.com/Intro-CS-App-Dev-and-Deploy/Computer-App-Exemplars)
+
 - Music or Drawing Program Promotions in GitHub: introduce final project of index.html ("ProjectDOC.html")
-- Explore YouTube Audio Library (free music and sound effects), https://studio.youtube.com/channel/UCkhFasU2ZSgusy_b1l4bcHg/music
-  - Review my downloaded exemplar music files (meditative music, other music)
-  - Students able to use music they own (have rights to play)
-- Review Example of Pseudocode
+
 - Review "Most Minimal Code" example: introduce installing library to IDE and adding library to program using IDE
   - Review how to find coding examples
   - Review http://code.compartmental.net/minim/

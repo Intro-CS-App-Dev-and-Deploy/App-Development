@@ -21,7 +21,8 @@ Progression (**UNDER CONSTRUCTION**)
 - Review how to create drawing tools with virtual paper "button" (lines and circles)
 - *Work on Drawing Program everyday*
 - Learning Minim Library to play music and sounds from within an app
-  -
+  - installing the library to the IDE
+  - adding the library to the program
 - Programming GUI for Music Player with keyPressed
 
 TBA

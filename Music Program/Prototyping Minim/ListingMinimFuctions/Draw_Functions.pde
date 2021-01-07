@@ -8,6 +8,8 @@ void drawFunctions() {
   song1.pause();
   song1.rewind();
   //
+  song1.skip(); //Parameter is milli-seconds from start of audio file to start playing
+  //
   //Functions recognized by IDE but not in Minim Library
   song1.stop(); //"Stop" doesn't exist in library, no real documentation or example in minim
 } //End drawFunctions

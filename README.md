@@ -37,10 +37,11 @@ TBA
 - Review "Most Minimal Code" example: introduce installing library to IDE and adding library to program using IDE
   - Review how to find coding examples
   - Review http://code.compartmental.net/minim/
-- Review using Pseudocode Example, Single Button to Console: debugging with println()
-- Algorithm for Play Pause Button using functions from minim
-- Review Single Button Play Pause
+- Example using Pseudocode as Prototyping Starter
+  - Review using Pseudocode Example, Single Button to Console: debugging with println()
+  - Review Single Button Play Pause
 - Review Prototyping in keyPressed, Algorithms for
+  - Plan all algorithms using available functions (see https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development/tree/main/Music%20Program/Prototyping%20Minim/ListingMinimFuctions)
   - Play Pause
   - Play Stop
   - Skip in Forward and Reverse
@@ -51,4 +52,6 @@ TBA
     - set Loop Points
     - Wave Forms Progressions
 - Review Exemplar Single Song
+- Multiple Songs
+
 ---

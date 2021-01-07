@@ -28,12 +28,6 @@ Progression (**UNDER CONSTRUCTION**)
 - Learning Minim Library to play music and sounds from within an app
   - installing the library to the IDE
   - adding the library to the program
-- Programming GUI for Music Player with keyPressed
-
-TBA
-
-- Music or Drawing Program Promotions in GitHub: introduce final project of index.html ("ProjectDOC.html")
-
 - Review "Most Minimal Code" example: introduce installing library to IDE and adding library to program using IDE
   - Review how to find coding examples
   - Review http://code.compartmental.net/minim/
@@ -48,10 +42,13 @@ TBA
   - Loop Code Examples: Once, Infinite, Number-as-Variable (see Behaviour of Loop .txt)
   - Meta Data Lessons
     - Combinations: Text Song Title
-  - Additional
-    - set Loop Points
-    - Wave Forms Progressions
 - Review Exemplar Single Song
 - Multiple Songs
+
+- Additional Exemplars, not taught
+    - set Loop Points
+      - Wave Forms Progressions
+  - Review Exemplar Single Song
+  - Multiple Songs
 
 ---

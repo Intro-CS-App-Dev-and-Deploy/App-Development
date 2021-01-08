@@ -6,11 +6,7 @@ Progression Reminders: infinite function, once parameter as variable, setting lo
 How .loop() works in Minim: 
 - Press l or L press, when nothing is playing: play the current song and loop it once 
 
-How .loop() repeats more than once: use a variable (See 
-
-Note: song is always looping infinitely so when l or L is pressed,
-it does not restart the song
-
-Note about isLopping()
-- empty parameter means infinite loop
-- int as parameter means loop than many times (can be advanced behaviour in player)
+How .loop() repeats more than once: use a variable (See loopnum.pde exemplar)
+Note: includes following functions ...
+- .loopCount() //returns number of loops that are available
+- .isLooping() //returns True or False

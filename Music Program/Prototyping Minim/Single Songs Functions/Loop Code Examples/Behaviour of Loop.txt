@@ -1,10 +1,10 @@
-Progression Reminders: infinite function, once parameter as variable, setting loop variable example code (protoytyped in keyPressed)
+Progression Reminders: infinite function, once parameter as variable, setting loop variable example code (prototyped in keyPressed)
 
 .loop(int) automatically loops the song, and re-starts playing from the beginning
 - Notice: .loop(int) will play the song first, then loop it for the number of times
 
-How .loop() works in Minim: 
-- Press l or L press, when nothing is playing: play the current song and loop it once 
+How .loop() works in Minim:
+- Press l or L press, when nothing is playing: play the current song and loop it once
 
 How .loop() repeats more than once: use a variable (See loopnum.pde exemplar)
 Note: includes following functions ...

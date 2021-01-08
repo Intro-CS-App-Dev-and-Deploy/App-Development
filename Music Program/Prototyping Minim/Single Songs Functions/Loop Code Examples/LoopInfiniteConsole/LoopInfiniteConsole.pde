@@ -11,7 +11,7 @@ Minim minim;
 AudioPlayer song1;
 
 void setup() {
-  //size(): Console output, not visual data, text promptos only, not complete yet
+  //size(): Console output, not visual data, text prompts only, not complete yet
 
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
   song1 = minim.loadFile("groove.mp3");

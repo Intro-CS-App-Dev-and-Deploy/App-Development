@@ -9,7 +9,7 @@ Press l or L when nothing is playing
 Press l or L when song is playing and looping
 - stop the loop, finish the song playing
 
-Note: song is always looping infinitely so when lorL is pressed,
+Note: song is always looping infinitely so when l or L is pressed,
 it does not restart the song
 
 Note about isLopping()

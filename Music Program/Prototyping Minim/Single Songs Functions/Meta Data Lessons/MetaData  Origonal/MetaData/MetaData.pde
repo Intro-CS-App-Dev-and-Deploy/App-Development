@@ -25,12 +25,12 @@ void setup() {
   textFont(createFont("Serif", 12)); //simple text starting code, refer to how text is usually started, uses default font already installed
   
   //For Prototyping, print all information to the console first
-  //Verifying Meta Data
+  //Verifying Meta Data, 18 println's 
   println( "File Name: ", songMetaData1.fileName() );
-  println( "Length (in milliseconds): ", songMetaData1.length() );
-  println( "Length (in seconds): ", songMetaData1.length()/1000 );
-  println( "Length (in minutes & seconds): ", (songMetaData1.length()/1000)/60, " minute", (songMetaData1.length()/1000)-((songMetaData1.length()/1000)/60 * 60), " seconds" );
-  println( "Title: ", songMetaData1.title() );
+  println( "Song Length (in milliseconds): ", songMetaData1.length() );
+  println( "Song Length (in seconds): ", songMetaData1.length()/1000 );
+  println( "Song Length (in minutes & seconds): ", (songMetaData1.length()/1000)/60, " minute", (songMetaData1.length()/1000)-((songMetaData1.length()/1000)/60 * 60), " seconds" );
+  println( "Song Title: ", songMetaData1.title() );
   println( "Author: ", songMetaData1.author() ); //Song Writer or Performer
   println( "Composer: ", songMetaData1.composer() ); //Song Writer
   println( "Orchestra: ", songMetaData1.orchestra() );

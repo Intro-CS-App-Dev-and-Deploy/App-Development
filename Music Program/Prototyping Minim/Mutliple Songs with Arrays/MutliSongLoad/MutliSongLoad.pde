@@ -10,14 +10,16 @@ import ddf.minim.ugens.*;
 Minim minim;
 int numberOfSongs = 3;
 AudioPlayer[] song = new AudioPlayer[numberOfSongs];
+int currentSong = numberOfSongs - numberOfSongs; //current song related to number of songs, thus formulaic
 
 void setup() {
   //size(): Console output, not visual data, text promptos only, not complete yet
 
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song[0] = minim.loadFile("groove.mp3");
-  song[1] = minim.loadFile("Beat_Your_Competition.mp3");
-  song[2] = minim.loadFile("The_Simplest.mp3");
+  //0, 1, 2 changed to variable and operators
+  song[currentSong] = minim.loadFile("groove.mp3");
+  song[currentSong+=1] = minim.loadFile("Beat_Your_Competition.mp3");
+  song[currentSong+=1] = minim.loadFile("The_Simplest.mp3");
 
   println("Start of Console");
   println("Click the Console to Finish Starting this program");

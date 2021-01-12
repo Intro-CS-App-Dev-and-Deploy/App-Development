@@ -8,10 +8,14 @@ Start with drawing program and music program Case Studies,
 - then complete music program,
 - then add music and sound effects to drawing program
 
+Remember: using my lessons on Music Player Buttons (my IF Algorithms) can achieve a very good grade, but not a full grade on the music player.
+- You will need to change the music player button algorithms so play, pause, stop, next, and previous function a little different
+- You will need to describe how your player works differently than my player if you want these marks (to point this out to me)
+
 Continue with Final Special Project, to be discussed with Mr. Mercer
 - Promotion Website as Example Project
 - Android Sideloading as Example Project
-- Highly Developed Drawing Program or Music Program
+- Extending Music Program beyond lessons (or another programming project)
 
 ---
 
@@ -39,16 +43,18 @@ Progression (**UNDER CONSTRUCTION**)
   - Play Pause
   - Play Stop
   - Skip in Forward and Reverse
-  - Loop Code Examples: Once, Infinite, Number-as-Variable (see Behaviour of Loop .txt)
-  - Meta Data Lessons
-    - Combinations: Text Song Title
+  - Loop Code Examples: Once, Number-as-Variable (see Behaviour of Loop .txt); includes additional "text" lesson
+  - Meta Data Lessons: all functions and loading multiple songs (review all functions with single song, then load multiple songs, then change code to illustrate FOR Loop displaying multiple song's meta data
+  - Next and Previous Buttons (for multiple songs): Load Multiple Songs
+  - Next and Previous Algorithms, including error checking for "Array Out of Bounds"
+  - Combinations: Text Song Title: See "DisplayTwoSongTitles.pde"
 - Review Exemplar Single Song
 - Multiple Songs
 
 - Additional Exemplars, not taught
     - set Loop Points
-      - Wave Forms Progressions
-  - Review Exemplar Single Song
-  - Multiple Songs
+    - Wave Forms Progressions
+
+- Hint about randomizing a Playlist: use math-random to randomly pick one of the "index-array" song numbers
 
 ---

@@ -57,6 +57,8 @@ Progression (**UNDER CONSTRUCTION**)
 
 - Hint about randomizing a Playlist: use math-random to randomly pick one of the "index-array" song numbers
 
+- Reminder: apply music player knowledge to sound effects (part of final exam)
+
 ---
 
 # To Include

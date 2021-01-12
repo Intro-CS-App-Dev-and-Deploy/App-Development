@@ -19,9 +19,9 @@ color purple = #2C08FF;
 void setup() {
   size(500, 400); //fullScreen(), displayWidth & displayHeight, leads to ScreenChecker()
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song[0] = minim.loadFile("groove.mp3");
-  song[1] = minim.loadFile("Beat_Your_Competition.mp3");
-  song[2] = minim.loadFile("The_Simplest.mp3");
+  song[0] = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3");
+  song[1] = minim.loadFile("../../../../FreeWare Music/MusicDownload/Beat_Your_Competition.mp3");
+  song[2] = minim.loadFile("../../../../FreeWare Music/MusicDownload/The_Simplest.mp3");
   //
   songMetaData[0] = song[0].getMetaData(); //reads song meta 1, like song 1, mimicing array notation
   songMetaData[1] = song[1].getMetaData();

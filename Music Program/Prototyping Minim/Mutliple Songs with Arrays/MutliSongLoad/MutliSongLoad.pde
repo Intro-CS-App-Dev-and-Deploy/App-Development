@@ -17,9 +17,9 @@ void setup() {
 
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
   //0, 1, 2 changed to variable and operators
-  song[currentSong] = minim.loadFile("groove.mp3");
-  song[currentSong+=1] = minim.loadFile("Beat_Your_Competition.mp3");
-  song[currentSong+=1] = minim.loadFile("The_Simplest.mp3");
+  song[currentSong] = minim.loadFile("../../../FreeWare Music/MusicDownload/groove.mp3");
+  song[currentSong+=1] = minim.loadFile("../../../FreeWare Music/MusicDownload/Beat_Your_Competition.mp3");
+  song[currentSong+=1] = minim.loadFile("../../../FreeWare Music/MusicDownload/The_Simplest.mp3");
 
   println("Start of Console");
   println("Click the Console to Finish Starting this program");

@@ -58,3 +58,9 @@ Progression (**UNDER CONSTRUCTION**)
 - Hint about randomizing a Playlist: use math-random to randomly pick one of the "index-array" song numbers
 
 ---
+
+# To Include
+
+All programs should reference one folder of music in the teaching programs
+
+---

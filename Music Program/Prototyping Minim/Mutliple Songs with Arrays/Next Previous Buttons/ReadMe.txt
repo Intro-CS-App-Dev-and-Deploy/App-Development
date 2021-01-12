@@ -8,4 +8,3 @@ Lesson Ideas
 - Develop error checking for Array Index Out of Bounds
   - Actual error is trying to work on array index that doesn't exist
   - currentSong variable is not the issue
-

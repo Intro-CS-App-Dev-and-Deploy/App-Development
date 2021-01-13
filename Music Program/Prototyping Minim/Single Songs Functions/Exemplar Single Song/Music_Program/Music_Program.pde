@@ -25,7 +25,7 @@ int loopNum = 1; //Able to connect this variable to buttons, increasing the loop
 void setup() {
   minim = new Minim(this);
   //load from data directory, loadFile should also load from project folder
-  song1 = minim.loadFile("groove.mp3");
+  song1 = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3");
   songMetaData1 = song1.getMetaData();
   
   //Instructions

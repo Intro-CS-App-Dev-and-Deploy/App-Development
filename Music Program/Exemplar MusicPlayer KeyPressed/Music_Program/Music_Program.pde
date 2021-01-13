@@ -30,13 +30,13 @@ int loopNum = 1; //Able to connect this variable to buttons, increasing the loop
 void setup() {
   minim = new Minim(this);
   //load from data directory, loadFile should also load from project folder
-  song[0] = minim.loadFile("Music/groove.mp3");
-  song[1] = minim.loadFile("Music/The_Simplest.mp3");
-  song[2] = minim.loadFile("Music/Start_Your_Engines.mp3");
-  song[3] = minim.loadFile("Music/Ghost_Walk.mp3");
+  song[0] = minim.loadFile("../../FreeWare Music/MusicDownload/groove.mp3");
+  song[1] = minim.loadFile("../../FreeWare Music/MusicDownload/The_Simplest.mp3");
+  song[2] = minim.loadFile("../../FreeWare Music/MusicDownload/Start_Your_Engines.mp3");
+  song[3] = minim.loadFile("../../FreeWare Music/MusicDownload/Ghost_Walk.mp3");
   songMetaData1 = song[0].getMetaData();
   //
-  soundEffect[0] = minim.loadFile("Sound Effects/Car_Door_Closing.mp3");
+  soundEffect[0] = minim.loadFile("../../FreeWare Music/SoundEffect/Car_Door_Closing.mp3");
 
   //Instructions
   println("Start of Console");

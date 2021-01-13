@@ -11,6 +11,14 @@ Start with drawing program and music program Case Studies,
 Remember: using my lessons on Music Player Buttons (my IF Algorithms) can achieve a very good grade, but not a full grade on the music player.
 - You will need to change the music player button algorithms so play, pause, stop, next, and previous function a little different
 - You will need to describe how your player works differently than my player if you want these marks (to point this out to me)
+- Note: additional buttons and data that will elevate your music player into Final Special Project status
+  - At least five pieces of data from song file meta data (see Single Song Functions & Multiple Songs with Arrays)
+  - UNDERCONSTRUCTION: Volume Buttons and Volume "Number" Display, including Mute Button (see Single Song Functions)
+  - UNDERCONSTRUCTION: Randomize Play List Button (see Multiple Songs with Arrays)
+  - Button: Set Loop Points (see Single Song Functions)
+  - Displaying Wave Form Progressions (see Single Song Functions)
+  - Equalizer Buttons: Balance, Control, Programming
+    - See http://code.compartmental.net/minim/audioplayer_class_audioplayer.html
 
 Continue with Final Special Project, to be discussed with Mr. Mercer
 - Promotion Website as Example Project

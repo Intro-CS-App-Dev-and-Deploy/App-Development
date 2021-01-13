@@ -17,7 +17,7 @@ color purple = #2C08FF;
 void setup() {
   size(500, 400); //fullScreen(), displayWidth & displayHeight, leads to ScreenChecker()
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song1 = minim.loadFile("groove.mp3");
+  song1 = minim.loadFile("../../../../..FreeWare Music/MusicDownloadgroove.mp3");
   songMetaData1 = song1.getMetaData(); //reads song meta 1, like song 1, mimicing array notation
   titleFont = createFont ("Harrington", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
   //

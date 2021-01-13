@@ -15,7 +15,7 @@ void setup() {
   size(512, 256, P2D);
 
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song1 = minim.loadFile("groove.mp3");
+  song1 = minim.loadFile("../../../../../FreeWare Music/MusicDownload/groove.mp3");
   songMetaData1 = song1.getMetaData(); //reads song meta 1, like song 1, mimicing array notation
 
   println("Start of Console");

@@ -21,7 +21,7 @@ void setup()
 {
   size(512, 200, P3D);
   minim = new Minim(this);
-  snip = minim.loadFile("groove.mp3");
+  snip = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3");
   
   textFont(loadFont("ArialMT-14.vlw"));
 }

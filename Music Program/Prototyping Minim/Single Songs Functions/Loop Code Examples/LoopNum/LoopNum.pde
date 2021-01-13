@@ -21,7 +21,7 @@ void setup()
   size(512, 200, P3D);
 
   minim = new Minim(this);
-  groove = minim.loadFile("groove.mp3", 2048); //Buffer increased from 1024 to 20148
+  groove = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3", 2048); //Buffer increased from 1024 to 20148
   
   textFont(createFont("Arial", 12));
 }

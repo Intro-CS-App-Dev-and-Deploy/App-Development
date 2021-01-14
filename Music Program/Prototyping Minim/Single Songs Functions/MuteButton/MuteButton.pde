@@ -12,7 +12,7 @@ void setup() {
 }
 
 void draw() {
-  //println(song1.position());
+  println(song1.position()); //Purpose: illustrate song continues to play while muted
 }//End draw
 
 void mousePressed() {}//End mousePressed

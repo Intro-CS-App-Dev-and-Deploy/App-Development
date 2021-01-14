@@ -9,7 +9,7 @@ void setup1() {
   println("Start of Console");
   println("Click the Canvas to Finish Starting this program");
   println("Press P to Play and Pause");
-  println("Press M to mute the volumem");
+  println("Press M to mute the volume");
 }//End setup1
 
 void playKey() {

@@ -1,11 +1,3 @@
-import ddf.minim.*;
-import ddf.minim.analysis.*;
-import ddf.minim.effects.*;
-import ddf.minim.signals.*;
-import ddf.minim.spi.*;
-import ddf.minim.ugens.*;
-
-// Global Variables
 Minim minim;
 int numberOfSongs = 3;
 AudioPlayer[] song = new AudioPlayer[numberOfSongs]; //"Song One"
@@ -16,8 +8,7 @@ PFont titleFont;
 color black = #000000;
 color purple = #2C08FF;
 
-void setup() {
-  size(500, 400); //fullScreen(), displayWidth & displayHeight, leads to ScreenChecker()
+void setup1() {
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
   song[0] = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3");
   song[1] = minim.loadFile("../../../../FreeWare Music/MusicDownload/Beat_Your_Competition.mp3");
@@ -32,9 +23,10 @@ void setup() {
   println("Start of Console");
   println("Click the Console to Finish Starting this program");
   println("Press P to Play and Pause");
-}
+  println("Press R to randomize playlist");
+}//End setup1
 
-void draw() {
+void draw1() {
   background (black);
   rect(width*1/4, height*0, width*1/2, height*1/10);
   fill(purple); //Ink, hexidecimal copied from Color Selector
@@ -43,10 +35,9 @@ void draw() {
   textFont(titleFont, 25); //Change the number until it fits, largest font size
   text(songMetaData[currentSong].title(), width*1/4, height*0, width*1/2, height*1/10);
   fill(255); //Reset to white for rest of the program
-}//End draw()
+}//End draw1
 
-void keyPressed() {
-  println ("Current Song before the next or back button, ", "Number: "+currentSong); //For Debugging
+void otherKeyPresses() {
   if (key == 'n' || key == 'N') { //Next Button to Console
     if (song[currentSong].isPlaying()) {
       song[currentSong].pause();
@@ -110,7 +101,4 @@ void keyPressed() {
     }
   }
   println( "Title: ", songMetaData[currentSong].title() );
-}//End keyPressed()
-
-void mousePressed() {
-}
+}//End otherKeyPresses

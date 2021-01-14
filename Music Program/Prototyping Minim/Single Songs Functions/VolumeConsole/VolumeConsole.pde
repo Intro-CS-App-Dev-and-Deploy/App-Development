@@ -6,24 +6,24 @@ import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 
+float gain = 15.0;
+
 void setup() {
   //size(): Console output not visual data
   setup1();
 }
 
-void draw() {}//End draw
+void draw() {
+}//End draw
 
-void mousePressed() {}//End mousePressed
+void mousePressed() {
+}//End mousePressed
 
 void keyPressed() {
   playKey();
-  println("Current Volume is", song1.getVolume());
-  if ( key=='v' || key=='V' ) song1.setVolume(0.2);
-  if ( key=='m' || key=='M' ) {//Muted Button
-    if ( song1.isMuted() ) {
-      song1.unmute();
-    } else {
-      song1.mute();
-    }
-  }//End Muted button
+  println("Current gain is", song1.getGain());
+  if ( key=='v' || key=='V' ) {
+    gain = gain+song1.getGain();
+    song1.setGain(gain);
+  }
 }//End keyPressed

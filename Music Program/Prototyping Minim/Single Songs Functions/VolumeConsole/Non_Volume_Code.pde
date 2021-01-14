@@ -12,14 +12,26 @@ void setup1() {
 }//End setup1
 
 void playKey() {
-  if (key == 'p' || key == 'P') {
+  if (key == 'p' || key == 'P') {//Play-Pause-Rewind Button
     if ( song1.isPlaying() ) {
       song1.pause();
+      println("test");
     } else if ( song1.position() == song1.length() ) {
+      song1.position();
       song1.rewind();
       song1.play();
+      
     } else {
       song1.play();
+      
+      
     }
-  }
+  }//End Play-Pause-Rewind Button
+  if ( key=='m' || key=='M' ) {//Muted Button
+    if ( song1.isMuted() ) {
+      song1.unmute();
+    } else {
+      song1.mute();
+    }
+  }//End Muted button
 }//End playKey

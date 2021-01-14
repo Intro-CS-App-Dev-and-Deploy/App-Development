@@ -20,6 +20,8 @@ Remember: using my lessons on Music Player Buttons (my IF Algorithms) can achiev
   - Equalizer Buttons: Balance, Control, Programming
     - See http://code.compartmental.net/minim/audioplayer_class_audioplayer.html
 
+Reminder: example code for Music Player and any final project is found in
+- File / Examples
 Continue with Final Special Project, to be discussed with Mr. Mercer
 - Promotion Website as Example Project
 - Android Sideloading as Example Project
@@ -71,6 +73,5 @@ Progression (**UNDER CONSTRUCTION**)
 
 # To Include
 
-All programs should reference one folder of music in the teaching programs
 
 ---

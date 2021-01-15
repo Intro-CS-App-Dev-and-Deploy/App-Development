@@ -2,10 +2,8 @@
 UNDER CONSTRUCTION
 
 Volume Control and Displays Volume Number
+- currently unsupported on Mr. Mercer's computer
+- Needs addressing
 
-Includes muting button
-
-Uses
-- boolean isMuted()
-- void mute()
-- void unmute()
+Current Version uses GAIN
+-only applifies the music, one step

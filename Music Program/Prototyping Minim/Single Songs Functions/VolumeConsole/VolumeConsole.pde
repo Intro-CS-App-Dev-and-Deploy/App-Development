@@ -22,7 +22,7 @@ void mousePressed() {
 void keyPressed() {
   playKey();
   println("Current gain is", song1.getGain());
-  if ( key=='v' || key=='V' ) {
+  if ( key=='v' || key=='V' ) { //Will amplify the volume, not control it
     gain = gain+song1.getGain();
     song1.setGain(gain);
   }

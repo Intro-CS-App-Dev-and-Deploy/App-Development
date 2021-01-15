@@ -26,7 +26,8 @@ Continue with Final Special Project, to be discussed with Mr. Mercer
 - Promotion Website as Example Project
 - Android Sideloading as Example Project
 - Extending Music Program beyond lessons (or another programming project)
-- Messaging Program: see Mr. Mercer
+- Private Messaging Program (visual data and/or text): see Mr. Mercer
+  - Only group project (due to server-client model)
   - Also see https://processing.org/tutorials/network/
   - See, for example working programs: https://github.com/MercersKitchen/Network-Sandbox/tree/main/From%20Website/SharedDrawingCanvas
 - [Depreciated, unsupported] Applet Maker and Signer (using a processing tool), see https://processing.org/reference/tools/ for instructions, discussions and other information

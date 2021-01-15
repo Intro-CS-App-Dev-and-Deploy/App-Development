@@ -26,7 +26,7 @@ Continue with Final Special Project, to be discussed with Mr. Mercer
 - Promotion Website as Example Project
 - Android Sideloading as Example Project
 - Extending Music Program beyond lessons (or another programming project)
-- Applet Maker and Signer (using a processing tool), see https://processing.org/reference/tools/ for instructions, discussions and other information
+- [Depreciated, unsupported] Applet Maker and Signer (using a processing tool), see https://processing.org/reference/tools/ for instructions, discussions and other information
 
 ---
 

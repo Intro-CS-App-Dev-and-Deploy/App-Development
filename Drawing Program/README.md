@@ -37,6 +37,7 @@ Addtional Examples of how mousePressed() can communicate with draw()
 ---
 
 Example Expectations for the Case Study
+- General: text for isntructions (like naming buttons)
 - Drawing Tools: lines, shapes, complex shapes, images
   - Includes extra parameters changing how the function (i.e. line) looks, for example not a solid line
   - Include  other functions that influence like colour, stroke weight, outline, etc.
@@ -45,6 +46,6 @@ Example Expectations for the Case Study
 - Quit Button
 - New Paper Button
 - Music Button
-- Optional: background images like a colour book
+- Background images like a colour book
 
 ---

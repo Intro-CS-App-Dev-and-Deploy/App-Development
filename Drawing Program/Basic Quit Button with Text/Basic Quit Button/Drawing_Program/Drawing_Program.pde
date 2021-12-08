@@ -5,7 +5,7 @@ Boolean draw=false;
 void setup() {
   size (500, 600); //fullScreen(), dispayWidth, displayHeight
   population();
-  quitButtonSetup();
+  quitButtonSetup(); //Contains Separate Population
   //
   rect(drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight);
 }//End setup()

@@ -5,12 +5,15 @@
  */
 
 //Global Variables
+//Font Type
+//Initial Size
+//Black Int
 
-void textQuitButton() {
-}//End textQuitButton
+void textSetup() {}//End textSetup()
 
-void text() {
-}//End text()
+//Code to be repeated instead of copied and pasted
+void textCode() {
+}//End textCode()
 
 /* Code from Text-Lesson to copy above
  println("Start of Console");

@@ -1,3 +1,5 @@
+//Purpose: to illustrate how TEXT code is reused
+
 //Global Variables
 float drawingSurfaceX, drawingSurfaceY, drawingSurfaceWidth, drawingSurfaceHeight, drawingDiameter;
 Boolean draw=false;
@@ -17,7 +19,7 @@ void draw() {
   {
     ellipse(mouseX, mouseY, drawingDiameter, drawingDiameter); //This code-line is for line vs. circle
   }//End line draw
-  secondText();
+  secondText(); //See Subprogram
 }//End draw()
 
 void mousePressed() {

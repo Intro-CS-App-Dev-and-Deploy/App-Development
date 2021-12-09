@@ -2,6 +2,7 @@
  Purpose: to reuse code by passing parameters to voids (void does not return)
  Reason: simplifies code, no more copying and pasting code to reuse
  Reminder: design of parameters are important, here string and size are passed only
+ Reminder: only one color, only one font type
  */
 
 //Global Variables

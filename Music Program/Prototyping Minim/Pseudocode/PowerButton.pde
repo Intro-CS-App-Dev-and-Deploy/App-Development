@@ -20,7 +20,7 @@ void powerButtonDraw() {
     buttonColour = purple;
     hoverOverButtonFill();
   }
-  //Text
+  //Text & Size as a Percentage of the Width, not a hardcoded number
   textCode(powerButton, width*3/100, powerButtonX, powerButtonY, powerButtonWidth, powerButtonHeight);
 }//End powerButtonDraw()
 //

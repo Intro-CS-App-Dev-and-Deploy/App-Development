@@ -1,35 +1,37 @@
-color purple = #FF03F3;
-color yellow = #FFF703;
-color regularButton = purple;
-color hoverOverButton = yellow;
-String title= "Power";
-PFont titleFont;
-
-void quitButtonSetup() {
-  titleFont = createFont ("Harrington", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
-}
-
-void quitButtonDraw() {
-  //rintln ("Mousex:", mouseX, "\tMouseY:", mouseY);
-  if (mouseX>width*15/16 && mouseX<width && mouseY>0 && mouseY<height*1/16) { //Hover Over
-    fill(hoverOverButton);
-    rect(width*15/16, height*0/16, width*1/16, height*1/16);
+//global Variables
+String powerButton = "Power";
+color purple=#FF03F3, yellow=#FFF703, resetWhite=#FFFFFF, buttonColour;
+float powerButtonX, powerButtonY, powerButtonWidth, powerButtonHeight;
+//
+void powerButtonSetup() {
+  //Population
+  powerButtonX = width*29/32;
+  powerButtonY = height*0/16;
+  powerButtonWidth = width*3/32;
+  powerButtonHeight = height*1/16;
+}//End powerButton()
+//
+void powerButtonDraw() {
+  //Hoverover
+  if ( mouseX>powerButtonX && mouseX<powerButtonX+powerButtonWidth && mouseY>powerButtonY && mouseY<powerButtonY+powerButtonHeight ) {
+    buttonColour = yellow;
+    hoverOverButtonFill();
   } else {
-    fill(regularButton);
-    rect(width*15/16, height*0/16, width*1/16, height*1/16);
+    buttonColour = purple;
+    hoverOverButtonFill();
   }
-
-  //Text in Quit Button
-  fill(#2C08FF); //Purple Ink, copied from Color Selector
-  textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
-  //Values: LEFT | CENTER | RIGHT & TOP | CENTER | BOTTOM | BASELINE
-  textFont(titleFont, 10); //Change the number until it fits, largest font size
-  text(title, width*15/16, height*0/16, width*1/16, height*1/16);
-  fill(255); //Reset to white for rest of the program
-}
-
-void quitButtonMouseClicked() {
-  if (mouseX>width*15/16 && mouseX<width && mouseY>0 && mouseY<height*1/16) {
-    exit();
-  }
-}
+  //Text
+  textCode(powerButton, width*3/100, powerButtonX, powerButtonY, powerButtonWidth, powerButtonHeight);
+}//End powerButtonDraw()
+//
+void powerButtonMousePressed() {
+  if (mouseX>powerButtonX && mouseX<powerButtonX+powerButtonWidth && mouseY>powerButtonY && mouseY<powerButtonY+powerButtonHeight ) exit();
+}//powerButtonMousePressed()
+//
+void hoverOverButtonFill() {
+  fill(buttonColour);
+  noStroke();
+  rect(powerButtonX, powerButtonY, powerButtonWidth, powerButtonHeight);
+  stroke(1); //reset stroke to 1 pixel
+  fill(resetWhite);
+}//End hoverOverButtonFill()

@@ -8,6 +8,8 @@ Start with drawing program and music program Case Studies,
 - then complete music program,
 - then add music and sound effects to drawing program
 
+Reminder: prototype music buttons in keyPressed(). Students responsible for mousePressed().
+
 Remember: using my lessons on Music Player Buttons (my IF Algorithms) can achieve a very good grade, but not a full grade on the music player.
 - You will need to change the music player button algorithms so play, pause, stop, next, and previous function a little different
 - You will need to describe how your player works differently than my player if you want these marks (to point this out to me)

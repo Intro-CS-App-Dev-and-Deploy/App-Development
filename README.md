@@ -83,3 +83,13 @@ Progression (**UNDER CONSTRUCTION**)
 Simple Code for Background Music: https://poanchen.github.io/blog/2016/11/15/how-to-add-background-music-in-processing-3.0
 
 ---
+
+Single Song IF Statements
+- IF ElseIf Else: most difficult first (sorry in advance), for play pause
+- IF Else: for Stop
+- Single-Line-IF: for Fast Forward and Reverse
+
+List all functions
+Develop IF Statements as a concept
+
+---

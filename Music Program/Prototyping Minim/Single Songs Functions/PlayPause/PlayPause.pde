@@ -22,6 +22,7 @@ void setup() {
 }
 
 void draw() {
+  println(song1.position(), song1.length());
 }
 
 void mousePressed() {
@@ -31,7 +32,7 @@ void keyPressed() {
   if (key == 'p' || key == 'P') {
     if ( song1.isPlaying() ) {
       song1.pause();
-    } else if ( song1.position() == song1.length() ) {
+    } else if ( song1.position() >= song1.length()-3000 ) {
       song1.rewind();
       song1.play();
     } else {

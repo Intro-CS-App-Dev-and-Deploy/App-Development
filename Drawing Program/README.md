@@ -6,7 +6,9 @@ Purpose:
 - Review Mouse and Canvas interactions: buttons (see 3x3 Home Screen Project)
 - Review Booleans with single line IF, IF-Else, IF-elseIF-Else
 
-Note: at minimum, background music is needed 
+Note: at minimum, background music is needed.
+- Example code for music can be found here
+- Mercer's Kitchen in GitHub ... App-Development /Music Program / Prototyping Minim / Single Songs Functions, <a href="https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development/tree/main/Music%20Program/Prototyping%20Minim/Single%20Songs%20Functions">Click Here</a>
 
 Resources and Websites for Ideas
 - https://processing.org/reference/

@@ -6,6 +6,8 @@ Purpose:
 - Review Mouse and Canvas interactions: buttons (see 3x3 Home Screen Project)
 - Review Booleans with single line IF, IF-Else, IF-elseIF-Else
 
+Note: at minimum, background music is needed 
+
 Resources and Websites for Ideas
 - https://processing.org/reference/
 - https://processing.org/examples/

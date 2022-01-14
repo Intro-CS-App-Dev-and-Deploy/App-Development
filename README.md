@@ -101,3 +101,12 @@ Rewrite all single song functions to include .loop(0) as the play button
 See .txt in Single Song Functions, required for Drawing Program
 
 ---
+
+Most minimal code to play a song: Minim Single Song Functions / 01 Most minimal code to play one song
+- Review installing a library
+- Install the library before global variables
+
+Review Pseudocode and Single Button with Power Button, see Folder: Minim Exemplar Pseudocode and Button
+
+
+---

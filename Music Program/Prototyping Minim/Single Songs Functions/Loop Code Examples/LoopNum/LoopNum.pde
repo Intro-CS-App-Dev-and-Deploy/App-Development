@@ -44,6 +44,7 @@ void draw()
 }
 
 void keyPressed()
+//Note: this is about inputing a number, but a hardcode works too (see LoopOnce.pde)
 {
   String keystr = String.valueOf(key);
   int num = int(keystr);

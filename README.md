@@ -94,3 +94,6 @@ List all functions
 Develop IF Statements as a concept
 
 ---
+
+Rewrite all single song functions to include .loop(0) as the play button
+- avoids the bug between .loop() and .play(): to loop the song needs to stop and then song will start again

@@ -15,7 +15,7 @@ void setup() {
   size(512, 256, P2D);
 
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song1 = minim.loadFile("../../../../../FreeWare Music/MusicDownload/groove.mp3");
+  song1 = minim.loadFile("../../../../../../FreeWare Music/MusicDownload/groove.mp3");
   songMetaData1 = song1.getMetaData(); //reads song meta 1, like song 1, mimicing array notation
 
   println("Start of Console");
@@ -75,7 +75,7 @@ void keyPressed() {
   if (key == 'p' || key == 'P') {
     if ( song1.isPlaying() ) {
       song1.pause();
-    } else if ( song1.position() == song1.length() ) {
+    } else if ( song1.position() >= song1.length()-2000 ) {
       song1.rewind();
       song1.play();
     } else {

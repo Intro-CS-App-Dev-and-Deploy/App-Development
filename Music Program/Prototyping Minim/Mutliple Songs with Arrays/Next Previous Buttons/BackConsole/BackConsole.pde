@@ -16,9 +16,9 @@ void setup() {
   //size(): Console output, not visual data, text promptos only, not complete yet
 
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song[0] = minim.loadFile("../../../FreeWare Music/MusicDownload/groove.mp3");
-  song[1] = minim.loadFile("../../../FreeWare Music/MusicDownload/Beat_Your_Competition.mp3");
-  song[2] = minim.loadFile("../../../FreeWare Music/MusicDownload/The_Simplest.mp3");
+  song[0] = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3");
+  song[1] = minim.loadFile("../../../../FreeWare Music/MusicDownload/Beat_Your_Competition.mp3");
+  song[2] = minim.loadFile("../../../../FreeWare Music/MusicDownload/The_Simplest.mp3");
 
   println("Start of Console");
   println("Click the Console to Finish Starting this program");

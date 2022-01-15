@@ -23,7 +23,7 @@ void setup() {
 
   println("Start of Console");
   println("Click the Console to Finish Starting this program");
-  println("Press P to Play and Pause");
+  println("Press l or L to play");
 }
 
 void draw() {
@@ -33,15 +33,6 @@ void mousePressed() {
 }
 
 void keyPressed() {
-  int currentSong = 3; //Must match array variable numberOfSongs
-  if (key == 'p' || key == 'P') {
-    if ( song[currentSong].isPlaying() ) {
-      song[currentSong].pause();
-    } else if ( song[currentSong].position() == song[currentSong].length() ) {
-      song[currentSong].rewind();
-      song[currentSong].play();
-    } else {
-      song[currentSong].play();
-    }
-  }
+  int currentSong = 2; //Must match array variable numberOfSongs, note human numbering
+  if ( key == 'l' || key == 'L') song[currentSong].loop(0); //Parameter is Parameter is number of repeats
 }

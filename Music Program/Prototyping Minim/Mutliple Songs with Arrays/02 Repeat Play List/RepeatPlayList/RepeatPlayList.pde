@@ -26,22 +26,23 @@ void setup() {
 }
 
 void draw() {
-  if ( song[currentSong].position() >= song[currentSong].length()-2 ) { //current bug for Grove.mp3 is 1 mS too early
+  if ( song[currentSong].position() >= song[currentSong].length()-500 ) { //Errors for Grove and Simplist
     song[currentSong].pause(); 
     song[currentSong].rewind(); 
     currentSong++;
     song[currentSong].play();
   }
-  if ( currentSong == numberOfSongs ) { //Handles the array Bug
+  if ( currentSong == numberOfSongs ) {
     currentSong = numberOfSongs - numberOfSongs;
     song[currentSong].play();
   }
-  //println (song[currentSong].position(), song[currentSong].length()); //For Debugging
+  println (song[currentSong].position(), song[currentSong].length());
 }
 
 void mousePressed() {
 }
 
 void keyPressed() {
+  println ("Current Song before the next or back button, ", "Number: "+currentSong); //For Debugging
   if (key == 'l' || key == 'L') song[currentSong].play();
 }

@@ -8,21 +8,17 @@ import ddf.minim.ugens.*;
 
 //Global Variables
 Minim minim;
-int numberOfSongs = 3;
+int numberOfSongs = 5;
 AudioPlayer[] song = new AudioPlayer[numberOfSongs];
 int currentSong = numberOfSongs - numberOfSongs; //Uses formula or FileIO Memory
 
 void setup() {
-  //size(): Console output, not visual data, text promptos only, not complete yet
-
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song[0] = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3");
-  song[1] = minim.loadFile("../../../../FreeWare Music/MusicDownload/Beat_Your_Competition.mp3");
-  song[2] = minim.loadFile("../../../../FreeWare Music/MusicDownload/The_Simplest.mp3");
-
-  println("Start of Console");
-  println("Click the Console to Finish Starting this program");
-  println("Press P to Play and Pause");
+  song[0] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/01 Tratak.mp3");
+  song[1] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/02 Cast_of_Pods.mp3");
+  song[2] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/03 Luxery.mp3");
+  song[3] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/04 This_is_a_Jazz_Space.mp3");
+  song[4] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/05 Waterfall.mp3");
 }
 
 void draw() {

@@ -30,7 +30,7 @@ void draw() {
     song[currentSong].pause(); 
     song[currentSong].rewind(); 
     currentSong++;
-    song[currentSong].play();
+    if ( currentSong < numberOfSongs )song[currentSong].play();
   }
   if ( currentSong == numberOfSongs ) {
     currentSong = numberOfSongs - numberOfSongs;

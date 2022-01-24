@@ -53,3 +53,10 @@ Example Expectations for the Case Study
 - Background images like a colour book
 
 ---
+
+# To Include
+
+See Processing.org: SaveFrame() and Save()
+- If a button is pressed, then `saveFrame("sketch.png");`
+
+---

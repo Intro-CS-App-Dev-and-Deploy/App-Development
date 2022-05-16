@@ -17,7 +17,7 @@ Resources and Websites for Ideas
 ---
 
 Case Study: for drawing program but also applies to music program
-- layout: virutal paper, buttons
+- layout: virtual paper, buttons
 - functions and behaviours for buttons & tools
 - overall workflow describing what a user has to do to interact with virtual paper
 
@@ -32,8 +32,8 @@ Processing.org has examples
 - Search Drawing: https://processing.org/examples/continuouslines.html
   Other code uses ideas and math that is complicated
 
-Addtional Examples of how mousePressed() can communicate with draw()
-- strokeWieght(brushSize); //populate brushsize in mousePressed but use strokeWeight() in draw()
+Additional Examples of how mousePressed() can communicate with draw()
+- strokeWieght(brushSize); //populate brush size in mousePressed but use strokeWeight() in draw()
 - "colouring book behaviour": load an image into the "button" for drawing as a background to draw overtop of, using image() in mousePressed where the rect() parameters for the background image() is the rect() for drawing
   - this might need to be a procedure passing parameters to reuse the image code
 - another?
@@ -41,7 +41,7 @@ Addtional Examples of how mousePressed() can communicate with draw()
 ---
 
 Example Expectations for the Case Study
-- General: text for isntructions (like naming buttons)
+- General: text for instructions (like naming buttons)
 - Drawing Tools: lines, shapes, complex shapes, images
   - Includes extra parameters changing how the function (i.e. line) looks, for example not a solid line
   - Include  other functions that influence like colour, stroke weight, outline, etc.

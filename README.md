@@ -108,5 +108,34 @@ Most minimal code to play a song: Minim Single Song Functions / 01 Most minimal 
 
 Review Pseudocode and Single Button with Power Button, see Folder: Minim Exemplar Pseudocode and Button
 
+---
+
+# To Include
+
+New Progressions
+
+Progressions for Drawing Program
+- Setting up Project Folder
+- Download sound effects (will be added later), minimum 1 sound effect for all buttons
+- Download music (will be added later), minimum 3 songs
+- Demonstrate "Drawing a line-drawing Tool"
+- Demonstrate "Drawing a circle-drawing Tool"
+- Case Study what your drawing will program will be (review student and professional examples
+- Demonstrate how to add a second tool
+- Demonstrate how to add a button (Quit Button)
+- Demonstrate how to add text
+- Demonstrate how to add a second text
+- Document all Drawing Program Buttons - Review additional Exemplars (See Computer App Examples)
+- Subprograms
+- Drawing Program: List the different tools and ideas for your GUI Design (option ... case study photo in GitHub repo)
+
+May 26: Work Period
+May 27: Work Period
+
+Progressions for Music Program
+- 
+
+To Do
+- Starting Music Program
 
 ---

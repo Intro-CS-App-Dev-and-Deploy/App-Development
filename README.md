@@ -1,6 +1,22 @@
 # App-Development
 Apps to Learn and Demonstrate Building Skills
 
+**UNDERCONSTRUCTION** Until 20220701
+
+Sections (Copy to all New Repos)
+- Introduction
+- Questions
+- Expectations
+- Instructions, Vocabulary, and Explanations (including URLs and IDE Use)
+- Code or Blocks of Code Emphasized (including parameters)
+- Gamification or Rubric or Points
+- Additional Information to Answer Questions
+- Extensions
+
+---
+
+
+
 ---
 
 Start with drawing program and music program Case Studies,
@@ -133,7 +149,7 @@ May 26: Work Period
 May 27: Work Period
 
 Progressions for Music Program
-- 
+-
 
 To Do
 - Starting Music Program

@@ -58,5 +58,6 @@ Example Expectations for the Case Study
 
 See Processing.org: SaveFrame() and Save()
 - If a button is pressed, then `saveFrame("sketch.png");`
+- Save email address and credentials to send these out to people
 
 ---

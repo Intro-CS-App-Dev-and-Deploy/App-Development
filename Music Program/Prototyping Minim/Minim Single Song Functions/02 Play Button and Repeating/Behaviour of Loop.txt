@@ -9,6 +9,9 @@ Note: the play-pause button still works
 - If you then press L, it will stop the song and start it again
 - This creates a little bit of a bug that can be solved if .loop(0) is actually the play button
 
+This should be figured out with a different algorithm
+- i.e. if .playing(), then .loop() will not work until isPlaying() returns false
+
 For More information: http://code.compartmental.net/tools/minim/quickstart/
 - Also see Processing.org / Documentation / Minim / http://code.compartmental.net/minim/
 

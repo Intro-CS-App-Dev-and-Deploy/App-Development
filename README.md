@@ -15,7 +15,13 @@ Sections (Copy to all New Repos)
 
 ---
 
+New Progressions
+- Drawing App
+- Illustrate Drawing App with Music Player
+- Prototype Music Player with keyPressed() only
+- then back to combination of apps
 
+Note: clean up Music Player Folder to reflect this 
 
 ---
 

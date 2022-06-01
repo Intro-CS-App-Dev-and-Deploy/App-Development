@@ -26,7 +26,7 @@ void keyPressed() {
   if ( key == 'l' || key == 'L') song1.loop(loopNum); //Parameter is Parameter is number of repeats
   //Stop as stop and begin from the beginning of the song
   if ( key=='m' || key=='M' ) {//Muted Button
-  //Note: Mute has built-in pause button
+  //Note: Mute has built-in pause button and built-in rewind if the song is near the end of the file
     if ( song1.isMuted() ) {
       song1.unmute();
     } else {

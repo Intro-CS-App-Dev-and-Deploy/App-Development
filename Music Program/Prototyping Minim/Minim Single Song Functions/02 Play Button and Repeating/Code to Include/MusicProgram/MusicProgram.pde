@@ -25,19 +25,18 @@ void draw()
 //
 void keyPressed()
 {
-  //Another Play Button, as a finite loop()
-  // null; //same as "" value, litterally nothing
-  int loopNum = -1; //Outside boundaries of what is acceptable loop (zero to ???)
-  if ( int.isNAN(key) ) loopNum = key;
-  String keystr = String.valueOf(key); //Must press a number to populate variable
-  println(keystr);
-  if ( keystr=="0" || keystr=="1" || keystr=="2" || keystr=="3" ) { //If a numeral is pressed
-    println("Number of Repeats is", keystr); //Feedback to user, should be to console as STRING in text()
-    loopNum = int(keystr); //Local Variable plays once and loops loopNum of times
-    keystr = null; //resetting will end any future reference of keystr in keyPressed()
-  } //End keystr
-  if ( loopNum >= 0 && loopNum <= 3 ) song1.loop(loopNum); //Parameter is number of loops
-  if ( loopNum > 3 ) println("I donot loop that much, press infinite loop.");
+  //Only press a number for this code below
+  if ( key=='1' || key=='9' ) { //Looping Functions
+    //Note: "9" is assumed to be massive! "Simulate Infinite"
+    if ( key == '1' ) println("Looping 1 time"); //Once
+    if ( key == '9' ) println("Looping 9 times"); //Simulating Infinity
+    String keystr = String.valueOf(key);
+    println("Number of Repeats is", keystr);
+    int num = int(keystr);
+    song1.loop(num);
+  }//End LOOP
+  if ( key>='2' && key!='9') println("I do not loop that much! Try again.");
+  //
   //Note: if loopNum is <0, doesn't matter
   // if ( key=='l' || key=='L' ) song1.loop(loopNum); //Parameter is number of loops
   //

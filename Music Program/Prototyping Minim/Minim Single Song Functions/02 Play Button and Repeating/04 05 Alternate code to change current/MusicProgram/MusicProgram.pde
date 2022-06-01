@@ -33,7 +33,7 @@ void keyPressed()
     String keystr = String.valueOf(key);
     println("Number of Repeats is", keystr);
     int num = int(keystr);
-    song1.loop(num);
+    song1.loop(num); //Parameter is number of loops
   }//End LOOP
   if ( key>='2' && key!='9') println("I do not loop that much! Try again.");
   //

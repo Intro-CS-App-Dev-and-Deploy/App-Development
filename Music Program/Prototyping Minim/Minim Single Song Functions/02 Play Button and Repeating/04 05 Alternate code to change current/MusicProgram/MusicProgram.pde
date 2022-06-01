@@ -19,29 +19,32 @@ void setup()
 //
 void draw()
 {
-  if ( song1.isLooping() ) println("There are", song1.loopCount(), "loops left.");
+  //Note: logical operators could be nested IFs
+  if ( song1.isLooping() && song1.loopCount()!=-1 ) println("There are", song1.loopCount(), "loops left.");
+  if ( song1.isLooping() && song1.loopCount()==-1 ) println("Looping Infinitely");
   if ( song1.isPlaying() && !song1.isLooping() ) println("Play Once");
 }//End draw
 //
 void keyPressed()
 {
-  //Only press a number for this code below
-  if ( key=='1' || key=='9' ) { //Looping Functions
-    //Note: "9" is assumed to be massive! "Simulate Infinite"
-    if ( key == '1' ) println("Looping 1 time"); //Once
-    if ( key == '9' ) println("Looping 9 times"); //Simulating Infinity
-    String keystr = String.valueOf(key);
-    println("Number of Repeats is", keystr);
-    int num = int(keystr);
-    song1.loop(num); //Parameter is number of loops
-  }//End LOOP
-  if ( key>='2' && key!='9') println("I do not loop that much! Try again.");
-  //
-  //Note: if loopNum is <0, doesn't matter
-  // if ( key=='l' || key=='L' ) song1.loop(loopNum); //Parameter is number of loops
-  //
-  //First Play Button
+ //First Play Button
   if ( key=='p' || key=='P' ) song1.play(); //Parameter is milli-seconds from start of audio file to start playing
+  //
+  //Another Play Button, as a finite loop() && infinite loop()
+  //Only press a number for this code below
+  println(key);
+  if ( key=='1' || key=='9' ) {
+    //Note: "9" is assumed to be massive! "Simulate Infinite"
+    if ( key=='1' ) println("Looping Once");
+    if ( key=='9' ) println("Looping 9 times."); //Simulate Infinity
+    String keystr = String.valueOf(key); //Must press a number
+    println("Number of Repeats is", keystr); 
+    int loopNum = int(keystr); //Local Variable plays once and loops loopNum of times
+    song1.loop(loopNum); //Parameter is number of loops
+    // if ( key=='l' || key=='L' ) song1.loop(loopNum); //Parameter is number of loops
+  }
+  if ( key=='i' || key=='I' ) song1.loop(); //Infinite Loop, no parameter OR -1
+  if ( key>='2' && key!='9' ) println("I donot loop that much, press infinite loop.");
   //
 }//End keyPressed
 //

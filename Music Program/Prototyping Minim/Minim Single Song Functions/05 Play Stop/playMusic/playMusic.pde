@@ -40,7 +40,7 @@ void keyPressed() {
       song1.pause();
       song1.rewind();
     } else { //Song is not playing
-      song1.rewind();
+      song1.rewind(); //Not playing means song is paused or song position is at the end of the file
     }
   }//End Stop
 } //End keyPressed()

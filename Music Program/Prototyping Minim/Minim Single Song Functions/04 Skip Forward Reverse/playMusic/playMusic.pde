@@ -32,6 +32,8 @@ void keyPressed() {
       song1.mute();
     }
   }//End Muted button
+  //
+  //Built-in question: .isPlaying()
   if ( key == 'f' || key == 'F') song1.skip(1000); // skip forward 1 second (1000 milliseconds)
   if ( key == 'r' || key == 'R') song1.skip(-1000); // skip backward 1 second (1000 milliseconds)
 } //End keyPressed()

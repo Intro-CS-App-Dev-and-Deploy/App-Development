@@ -23,7 +23,7 @@ void setup() {
   //
   println("Start of Console");
   println("Click the Console to Finish Starting this program"); //Review of OS-level button
-  println( "Title: ", songMetaData1.title() );
+  println( "Title: ", songMetaData1.title() ); //Introduction of Key:Value Pairs (similar to websites)
 }
 
 void draw() {

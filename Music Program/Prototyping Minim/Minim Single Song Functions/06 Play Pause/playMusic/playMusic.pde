@@ -47,11 +47,13 @@ void keyPressed() {
   if (key == 'p' || key == 'P') {
     if ( song1.isPlaying() ) {
       song1.pause();
-    } else if ( song1.position() >= song1.length()-2000 ) {
+    } else if ( song1.position() >= song1.length()-song1.length()*1/5 ) { //Special Situation: at the end of the song (built-in stop button)
+      //End of Song Calcualtion: hardcode 1000 OR use formula to say "listen to 80% of the sone"
+      //Alternate formula: song1.length() - song1.position() <= 1000
       song1.rewind();
       song1.play();
     } else {
-      song1.play();
+      song1.play(); //Parameter is milli-seconds from start of audio file to start of playing (i.e. 14000 will start 14 seconds into the song)
     }
   }//End Play Pause
 } //End keyPressed()

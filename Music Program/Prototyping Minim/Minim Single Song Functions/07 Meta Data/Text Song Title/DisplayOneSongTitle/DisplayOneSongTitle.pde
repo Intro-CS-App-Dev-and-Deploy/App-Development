@@ -22,7 +22,7 @@ void setup() {
   titleFont = createFont ("Harrington", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
   //
   println("Start of Console");
-  println("Click the Console to Finish Starting this program");
+  println("Click the Console to Finish Starting this program"); //Review of OS-level button
   println( "Title: ", songMetaData1.title() );
 }
 

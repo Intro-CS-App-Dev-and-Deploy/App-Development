@@ -13,7 +13,7 @@ AudioMetaData songMetaData1; //"Song Meta One"
 PFont titleFont;
 color black = #000000;
 color purple = #2C08FF;
-
+//
 void setup() {
   size(500, 400); //fullScreen(), displayWidth & displayHeight, leads to ScreenChecker()
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder

@@ -8,6 +8,7 @@ if ( key=='n' || key=='N' ) {//Next Button
       song[currentSong].play();
     } else {
       song[currentSong].rewind(); //Built-in rewind feature feature so all songs start at ZERO
+      //If .rewind() must be .pause() then the "End of Song" needs to be defined, similar to STOP & 80% listened too
       nextButtonArrayCatch();
       song[currentSong].play();
     }

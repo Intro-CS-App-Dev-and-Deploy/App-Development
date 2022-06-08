@@ -35,11 +35,14 @@ void keyPressed() {
   println ("Current Song before the next or back button, ", "Number: "+currentSong); //For Debugging
   if (key == 'n' || key == 'N') { //Next Button to Console
     if (song[currentSong].isPlaying()) {
+      //Seriuos Problems, playing multiple songs at the same time unless fixed
+      //Students will build this when ELSE complete
       song[currentSong].pause();
       song[currentSong].rewind();
       arrayErrorFix();
       song[currentSong].play();
     } else {
+      //Prototype this first
       song[currentSong].rewind();
       arrayErrorFix();
       }

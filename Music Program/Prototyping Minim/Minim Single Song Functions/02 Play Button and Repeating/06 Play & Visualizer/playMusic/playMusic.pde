@@ -5,11 +5,11 @@ import ddf.minim.effects.*;
 import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
-
+//
 //Global Variables
 Minim minim; //creates object to access all functions
 AudioPlayer song1; //creates "Play List" variable holding extensions WAV, AIFF, AU, SND, and MP3
-
+//
 void setup () {
   size(512, 200, P3D);
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder, like loadImage
@@ -17,7 +17,7 @@ void setup () {
   //
   textFont(createFont("Arial", 12));
 } //End setup()
-
+//
 void draw() {
   if ( song1.isLooping() ) println("There are", song1.loopCount(), "loops left.");
   //
@@ -32,7 +32,7 @@ void draw() {
      + " Is playing: " + song1.isPlaying() 
      + ", Is looping: " + song1.isLooping(), 5, 15);
 } //End draw()
-
+//
 void keyPressed() {
   //Number keys become play buttons, most simply to code and illsutrate this way
   String keystr = String.valueOf(key); //Can send a number to the Canvas or Console as a word
@@ -43,6 +43,8 @@ void keyPressed() {
     song1.loop(num);
   }
 } //End keyPressed()
-
+//
 void mouseClicked() {
 } //End mouseClicked()
+//
+//End Main Program

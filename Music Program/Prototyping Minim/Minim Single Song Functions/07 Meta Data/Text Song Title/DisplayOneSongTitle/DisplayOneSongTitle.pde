@@ -4,7 +4,7 @@ import ddf.minim.effects.*;
 import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
-
+//
 // Global Variables
 Minim minim;
 AudioPlayer song1; //"Song One"
@@ -25,7 +25,7 @@ void setup() {
   println("Click the Console to Finish Starting this program"); //Review of OS-level button
   println( "Title: ", songMetaData1.title() ); //Introduction of Key:Value Pairs (similar to websites)
 }
-
+//
 void draw() {
   background (black); //Reminder of OS-Level Button
   rect(width*1/4, height*0, width*1/2, height*1/10);
@@ -36,7 +36,9 @@ void draw() {
   text(songMetaData1.title(), width*1/4, height*0, width*1/2, height*1/10);
   fill(255); //Reset to white for rest of the program
 }//End draw()
-
-void keyPressed() {}
-
-void mousePressed() {}
+//
+void keyPressed() {}//End KeyPressed
+//
+void mousePressed() {}//End mousePressed
+//
+//End Main Program

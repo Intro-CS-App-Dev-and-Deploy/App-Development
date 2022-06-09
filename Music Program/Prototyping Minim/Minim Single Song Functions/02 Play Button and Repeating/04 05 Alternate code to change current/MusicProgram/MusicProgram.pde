@@ -27,10 +27,10 @@ void draw()
 //
 void keyPressed()
 {
- //First Play Button
+  //First Play Button
   if ( key=='p' || key=='P' ) song1.play(); //Parameter is milli-seconds from start of audio file to start playing
   //
-  //Another Play Button, as a finite loop() && infinite loop()
+  //ALternate Play Button, as a finite loop() && infinite loop()
   //Only press a number for this code below
   println(key);
   if ( key=='1' || key=='9' ) {
@@ -51,4 +51,4 @@ void keyPressed()
 void mousePressed() {
 }//End mousePressed
 //
-//End MAIN
+//End MAIN Program

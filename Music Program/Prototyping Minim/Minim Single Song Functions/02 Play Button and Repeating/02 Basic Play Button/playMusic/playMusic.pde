@@ -14,12 +14,17 @@ void setup () {
   //size(500, 600);
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder, like loadImage
   song1 = minim.loadFile("../../../../../FreeWare Music/MusicDownload/groove.mp3"); //able to pass absolute path, file name, and URL
+  //
 } //End setup()
 
 void draw() {} //End draw()
 
 void keyPressed() {
+  //
+  //First Play Button: if ( key=='p' || key=='P' ) song1.play();
+  //
   if ( key == 'l' || key == 'L') song1.loop(0); //Parameter is Parameter is number of repeats
+  //
 } //End keyPressed()
 
 void mouseClicked() {} //End mouseClicked()

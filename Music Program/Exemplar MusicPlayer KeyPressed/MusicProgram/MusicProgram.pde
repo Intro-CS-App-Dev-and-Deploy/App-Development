@@ -121,6 +121,7 @@ void keyPressed()
   }//End Stop Button
   //
   if ( key=='n' || key=='N' ) {
+  //Seriuos Problems with simple addition operator: plays multiple songs at the same time
     if ( song[currentSong].isPlaying() ) {
       song[currentSong].pause();
       song[currentSong].rewind();

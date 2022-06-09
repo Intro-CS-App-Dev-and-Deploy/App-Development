@@ -141,7 +141,6 @@ void keyPressed()
   //
 }//End keyPressed
 //
-void mousePressed() {
-}//End mousePressed
+void mousePressed() {}//End mousePressed
 //
 //End MAIN

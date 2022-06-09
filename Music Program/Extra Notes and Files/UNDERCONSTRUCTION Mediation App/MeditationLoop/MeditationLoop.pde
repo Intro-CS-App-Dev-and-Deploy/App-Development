@@ -5,40 +5,52 @@ import ddf.minim.effects.*;
 import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
-
+//
 //Global Variables
 Minim minim;
 int numberOfSongs = 5;
-AudioPlayer[] song = new AudioPlayer[numberOfSongs];
+AudioPlayer[] song = new AudioPlayer[5];
 int currentSong = numberOfSongs - numberOfSongs; //Uses formula or FileIO Memory
-
+String pathway="../../../FreeWare Music/Unused Music Meditative/";
+//
 void setup() {
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder
-  song[0] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/01 Tratak.mp3");
-  song[1] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/02 Cast_of_Pods.mp3");
-  song[2] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/03 Luxery.mp3");
-  song[3] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/04 This_is_a_Jazz_Space.mp3");
-  song[4] = minim.loadFile("../../FreeWare Music/Unused Music Meditative/05 Waterfall.mp3");
-}
-
+  song[0] = minim.loadFile(pathway+"Tratak.mp3");
+  song[1] = minim.loadFile(pathway+"Cast_of_Pods.mp3");
+  song[2] = minim.loadFile(pathway+"Luxery.mp3");
+  song[3] = minim.loadFile(pathway+"This_is_a_Jazz_Space.mp3");
+  song[4] = minim.loadFile(pathway+"Waterfall.mp3");
+  currentSong -= currentSong;
+  //
+  //When Program is done booting, immediately start playing music
+  song[currentSong].play(); //Autoplay Algorithm Start
+  //
+}//End setup
+//
 void draw() {
-  if ( song[currentSong].position() >= song[currentSong].length()-500 ) { //Errors for Grove and Simplist
-    song[currentSong].pause(); 
-    song[currentSong].rewind(); 
-    currentSong++;
-    if ( currentSong < numberOfSongs )song[currentSong].play();
+  //Simple AutoPlay Algorithm
+  if ( song[currentSong].isPlaying() ) { //Note: computer does not play entire file for some reason (Errors for Grove and Simplist)
+    //Empty IF
+    //When the song stops playing ... this cues functions to reset the file and play the next song
+  } else {
+    song[currentSong].pause(); // Reset file
+    song[currentSong].rewind(); //Reset file
+    if ( currentSong < numberOfSongs ) { //Variable is within play list
+      song[currentSong].play();
+    } else { //When variable is on the last song or beyond the play list (not negative numbers are ignored)
+    //No Boolean is needed here because varaible does not go outside these values
+    //A varaible check is included below "to be sure"
+      currentSong -= currentSong;
+      song[currentSong].play();
+    }
   }
-  if ( currentSong == numberOfSongs ) {
-    currentSong = numberOfSongs - numberOfSongs;
-    song[currentSong].play();
-  }
-  println (song[currentSong].position(), song[currentSong].length());
-}
-
-void mousePressed() {
-}
-
-void keyPressed() {
-  println ("Current Song before the next or back button, ", "Number: "+currentSong); //For Debugging
-  if (key == 'l' || key == 'L') song[currentSong].play();
-}
+  if ( currentSong<0 || currentSong>=numberOfSongs ) currentSong -= currentSong; //reset to zero
+  println ("Current Song Computer Number", currentSong, "Time Remaining", song[currentSong].length()- song[currentSong].position() );
+  //
+}// End draw
+//
+void mousePressed() {}//End mousePressed
+//
+void keyPressed() {}//End keyPressed
+//
+// End Main Program

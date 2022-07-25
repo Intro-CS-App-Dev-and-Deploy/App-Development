@@ -63,6 +63,7 @@ Progression (**UNDER CONSTRUCTION**)
   - Review Student Exemplars in Computer App Examples (https://github.com/Intro-CS-App-Dev-and-Deploy/Computer-App-Exemplars)
   - Review Example of Pseudocode
 - Complete Pseudo code and Rectangle GUI Layout (for inscribed 2D Shapes, Text, Images, and Interactive Buttons)
+  - Note: Google "Music Player Controls"
 - Review how to create drawing tools with virtual paper "button" (lines and circles)
 - *Work on Drawing Program everyday*
 - Explore YouTube Audio Library (free music and sound effects), https://studio.youtube.com/channel/UCkhFasU2ZSgusy_b1l4bcHg/music

@@ -23,7 +23,7 @@ void keyPressed() {
   //First Play Button: if ( key=='p' || key=='P' ) song1.play();
   //
   int loopNum = 2; //Local Variable plays once and loops twice
-  if ( key == 'l' || key == 'L') song1.loop(loopNum); //Parameter is Parameter is number of repeats
+  if ( key == 'l' || key == 'L') song1.loop(loopNum-1); //Parameter is Parameter is number of repeats
   //
 } //End keyPressed()
 //

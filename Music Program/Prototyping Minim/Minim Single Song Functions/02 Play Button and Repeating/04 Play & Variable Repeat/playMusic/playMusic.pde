@@ -33,7 +33,7 @@ void keyPressed() {
     String keystr = String.valueOf(key); //Must press a number
     println("Number of Repeats is", keystr); 
     int loopNum = int(keystr); //Local Variable plays once and loops loopNum of times
-    song1.loop(loopNum); //Parameter is number of loops
+    song1.loop(loopNum-1); //Parameter is number of loops
     // if ( key=='l' || key=='L' ) song1.loop(loopNum); //Parameter is number of loops
   }
 } //End keyPressed()

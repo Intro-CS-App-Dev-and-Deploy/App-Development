@@ -40,7 +40,7 @@ void keyPressed() {
   int num = int(keystr); //Change "Key Stroke" back to a number
   if ( num > 0 && num < 10 )
   {
-    song1.loop(num);
+    song1.loop(num-1);
   }
 } //End keyPressed()
 //

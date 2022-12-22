@@ -38,7 +38,7 @@ void keyPressed() {
   if (key == 's' || key == 'S') {
     if ( song1.isPlaying() ) {
       song1.pause();
-      song1.rewind();
+      song1.rewind(); //Cue SONG to play from beginning
     } else { //Song is not playing
       song1.rewind(); //Not playing means song is paused or song position is at the end of the file
     }

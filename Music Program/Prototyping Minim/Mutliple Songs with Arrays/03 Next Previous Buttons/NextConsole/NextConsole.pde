@@ -52,7 +52,7 @@ void keyPressed() {
   if (key == 'p' || key == 'P') {
     if ( song[currentSong].isPlaying() ) {
       song[currentSong].pause();
-    } else if ( song[currentSong].position() == song[currentSong].length() ) {
+    } else if ( song[currentSong].position() == song[currentSong].length() ) { //Built-in bug, .length is somtimes bigger than .position is able to access
       song[currentSong].rewind();
       song[currentSong].play();
     } else {

@@ -8,7 +8,7 @@ import ddf.minim.ugens.*;
 //
 //Global Variables
 Minim minim;
-int numberOfSongs = 3;
+int numberOfSongs = 3; //Able to Autodetect based on Pathway
 AudioPlayer[] song = new AudioPlayer[numberOfSongs];
 int currentSong = numberOfSongs - numberOfSongs; //current song related to number of songs, thus formulaic
 //

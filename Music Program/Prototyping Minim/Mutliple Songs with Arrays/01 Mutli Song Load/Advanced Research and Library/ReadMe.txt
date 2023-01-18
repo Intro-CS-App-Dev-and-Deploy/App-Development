@@ -1,5 +1,7 @@
 
 Counting Files in a Directory
+- does it work in the relative directory?
+- relative to abstract to absolute?
 
 
 Important Code

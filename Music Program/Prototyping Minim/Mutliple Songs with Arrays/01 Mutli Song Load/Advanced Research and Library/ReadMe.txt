@@ -29,3 +29,6 @@ System.out.println("This"+Path);
 File folder = new File("D:/Documents/GitHub/Final-Project/Musicxs" /*Absolute*/  );
 //System.out.println(Path.getPath());
 //System.out.println(Absolute);
+//
+//IF ELSEIF ELSE for various pathways
+//

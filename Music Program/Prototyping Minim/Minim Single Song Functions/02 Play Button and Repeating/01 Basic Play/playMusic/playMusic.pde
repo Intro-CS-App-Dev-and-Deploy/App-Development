@@ -11,9 +11,17 @@ Minim minim; //creates object to access all functions
 AudioPlayer song1; //creates "Play List" variable holding extensions WAV, AIFF, AU, SND, and MP3
 //
 void setup () {
-  //size(500, 600);
+  //size() or fullScreen()
+  //Display Algorithm
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder, like loadImage
-  song1 = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3"); //able to pass absolute path, file name, and URL
+  String groove = "groove.mp3";
+  String extension = ".mp3";
+  String pathway = "FreeWare Music/MusicDownload/"; //Relative Path
+  String path = sketchPath( pathway + groove ); //Absolute Path
+  // See: https://poanchen.github.io/blog/2016/11/15/how-to-add-background-music-in-processing-3.0
+  println(path);
+  song1 = minim.loadFile( path );
+  song1.loop(0);
 } //End setup()
 //
 void draw() {} //End draw()

@@ -13,13 +13,21 @@ AudioPlayer song1; //creates "Play List" variable holding extensions WAV, AIFF, 
 void setup () {
   //size(500, 600); //Remind you of Display Geometry
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder, like loadImage
-  song1 = minim.loadFile("../../../../FreeWare Music/MusicDownload/groove.mp3"); //able to pass absolute path, file name & extension, and URL
-  song1.play(); //Parameter is milli-seconds from start of audio file to start playing (illustrate with examples)
+  String groove = "groove.mp3";
+  String extension = ".mp3";
+  String pathway = "FreeWare Music/MusicDownload/"; //Relative Path
+  String path = sketchPath( pathway + groove ); //Absolute Path
+  // See: https://poanchen.github.io/blog/2016/11/15/how-to-add-background-music-in-processing-3.0
+  println(path);
+  song1 = minim.loadFile( path );
+  song1.loop(0);
 }//End setup
 //
 void draw() {}//End draw
 //
-void keyPressed() {}//End keyPressed
+void keyPressed() {
+  song1.loop(0);
+}//End keyPressed
 //
 void mouseClicked() {}//End mousePressed
 //

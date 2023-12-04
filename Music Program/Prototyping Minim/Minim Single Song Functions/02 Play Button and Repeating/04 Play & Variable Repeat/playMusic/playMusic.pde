@@ -26,15 +26,13 @@ void keyPressed() {
   //Alternate Play Button, as a finite loop() && infinite loop()
   //Only press a number for this code below
   println(key);
-  if ( key=='1' || key=='9' ) {
+  if ( key=='1' || key=='9' ) { //Loop Button
     //Note: "9" is assumed to be massive! "Simulate Infinite"
-    if ( key=='1' ) println("Looping Once");
-    if ( key=='9' ) println("Looping 9 times."); //Simulate Infinity
-    String keystr = String.valueOf(key); //Must press a number
-    println("Number of Repeats is", keystr); 
-    int loopNum = int(keystr); //Local Variable plays once and loops loopNum of times
-    song1.loop(loopNum-1); //Parameter is number of loops
-    // if ( key=='l' || key=='L' ) song1.loop(loopNum); //Parameter is number of loops
+    String keystr = String.valueOf(key);
+    println(keystr);
+    int loopNum = int(keystr);
+    song1.loop(loopNum); //Parameter is number of repeats
+    // if ( key=='l' || key=='L' ) song1.loop(loopNum);
   }
 } //End keyPressed()
 //

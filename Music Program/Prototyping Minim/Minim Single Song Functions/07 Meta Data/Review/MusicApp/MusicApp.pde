@@ -10,6 +10,8 @@ import ddf.minim.ugens.*;
 Minim minim; //creates object to access all functions
 AudioPlayer song1; //creates "Play List" variable holding extensions WAV, AIFF, AU, SND, and MP3
 AudioMetaData songMetaData1; //Stores everything from PlayList Properties TAB (.mp3)
+PFont generalFont;
+color purple = #2C08FF;
 //
 void setup() {
   //size() or fullScreen()
@@ -23,6 +25,7 @@ void setup() {
   println(path);
   song1 = minim.loadFile( path );
   songMetaData1 = song1.getMetaData();
+  generalFont = createFont ("Harrington", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
   //song1.loop(0);
   //
   //Meta Data Println Testing
@@ -60,6 +63,15 @@ void draw() {
   //Debugging Fast Forward and Fast Rewind
   //println( "Song Position", song1.position(), "Song Length", song1.length() );
   //
+  // songMetaData1.title()
+  rect(width*1/4, height*0, width*1/2, height*3/10); //mistake
+  fill(purple); //Ink
+  textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
+  //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
+  int size = 10; //Change this font size
+  textFont(generalFont, size); //Change the number until it fits, largest font size
+  text(songMetaData1.title(), width*1/4, height*0, width*1/2, height*3/10);
+  fill(255); //Reset to white for rest of the program
 } //End draw
 //
 void keyPressed() {

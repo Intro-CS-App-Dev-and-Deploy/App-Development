@@ -1,0 +1,29 @@
+
+Loop is actaully a play button, with parameter of zero
+Loop without a parameter is an infinite Loop
+Loop with a number is a "play" and then the number of loops
+  - i.e. loop(1) plays once and repeats once
+
+Note: the play-pause button still works
+- CAUTION: if you press P first, it will play
+- If you then press L, it will stop the song and start it again
+- This creates a little bit of a bug that can be solved if .loop(0) is actually the play button
+
+This should be figured out with a different algorithm
+- i.e. if .playing(), then .loop() will not work until isPlaying() returns false
+
+For More information: http://code.compartmental.net/tools/minim/quickstart/
+- Also see Processing.org / Documentation / Minim / http://code.compartmental.net/minim/
+
+Progression Reminders: infinite function, once parameter as variable, setting loop variable example code (prototyped in keyPressed)
+
+.loop(int) automatically loops the song, and re-starts playing from the beginning
+- Notice: .loop(int) will play the song first, then loop it for the number of times
+
+How .loop() works in Minim:
+- Press l or L press, when nothing is playing: play the current song and loop it once
+
+How .loop() repeats more than once: use a variable (See loopnum.pde exemplar)
+Note: includes following functions ...
+- .loopCount() //returns number of loops that are available
+- .isLooping() //returns True or False

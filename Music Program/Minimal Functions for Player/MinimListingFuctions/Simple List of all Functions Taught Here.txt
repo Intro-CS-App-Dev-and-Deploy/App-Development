@@ -1,0 +1,26 @@
+For more information, See: http://code.compartmental.net/minim/
+
+Manditory Code
+Minim minim;
+AudioPlayer song1;
+minim = new Minim(this);
+song1 = minim.loadFile("");
+
+Functions that will create all player buttons
+.loop(num); //Parameter is number of repeats
+//Note: .loop(0) has a built in .pause() and .rewind() function
+.isLooping()
+.loopCount()
+.isPlaying()
+.pause()
+.rewind()
+.isMuted() & .mute() & .unmute()
+.skip(+-num) //milliseconds
+.play(num); //Parameter is milli-seconds from start of audio file to start playing
+.position()
+.length()
+
+Casting Functions
+String.valueOf(VAR);
+Example: int num = int(keystr)
+

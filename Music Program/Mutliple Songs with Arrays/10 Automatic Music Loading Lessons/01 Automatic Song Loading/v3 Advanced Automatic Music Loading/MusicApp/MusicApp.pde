@@ -26,11 +26,12 @@ int currentSong = 0; //PlayList variable for Next and Previous Buttons
 void setup() {
   //size() or fullScreen()
   //Display Algorithm
-  pathway = "../../../../../../FreeWare Music AutoUpload Demo/MusicDownload/"; //Relative Path
+  pathway = "../../Download Demo/MusicDownload/"; //Relative Path
   directory = sketchPath( pathway ); //Absolute Path
   println("Main Directory to Music Folder", directory);
   file = new File(directory);
-  startingFileCount = fileCount = file.list().length;
+  fileCount = file.list().length;
+  startingFileCount = fileCount;
   println("File Count of the Music Folder", fileCount);
   files = file.listFiles(); //String of Full Directies
   println("List of all Directories of Each Song to Load into music playlist");

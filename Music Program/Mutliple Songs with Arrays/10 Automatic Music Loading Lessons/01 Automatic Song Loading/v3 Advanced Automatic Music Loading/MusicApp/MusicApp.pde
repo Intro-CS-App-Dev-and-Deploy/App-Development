@@ -26,7 +26,7 @@ int currentSong = 0; //PlayList variable for Next and Previous Buttons
 void setup() {
   //size() or fullScreen()
   //Display Algorithm
-  pathway = "../../FreeWare Music AutoUpload Demo/MusicDownload/"; //Relative Path
+  pathway = "../../../../../../FreeWare Music AutoUpload Demo/MusicDownload/"; //Relative Path
   directory = sketchPath( pathway ); //Absolute Path
   println("Main Directory to Music Folder", directory);
   file = new File(directory);

@@ -112,6 +112,7 @@ void draw() {
 void keyPressed() {
   //
   //Simple NEXT and PREVIOUS BUTTON
+  //FIXed, simple: arrrayListOutOfBounds 
   if ( key==CODED && keyCode==LEFT ) { //PREVIOUS
     song[currentSong].pause();
     if ( currentSong==0 ) {

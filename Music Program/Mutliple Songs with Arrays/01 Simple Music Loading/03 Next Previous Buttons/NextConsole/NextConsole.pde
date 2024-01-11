@@ -10,7 +10,7 @@ import ddf.minim.ugens.*;
 Minim minim;
 int numberOfSongs = 3;
 AudioPlayer[] song = new AudioPlayer[numberOfSongs];
-int currentSong = numberOfSongs - numberOfSongs; //Uses formula or FileIO Memory
+int currentSong = numberOfSongs - numberOfSongs + int ( random (numberOfSongs) ); //Uses formula or FileIO Memory
 
 void setup() {
   //size(): Console output, not visual data, text promptos only, not complete yet

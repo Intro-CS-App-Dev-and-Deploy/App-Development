@@ -1,4 +1,4 @@
-# App-Development
+# DELETE App-Development
 Apps to Learn and Demonstrate Building Skills
 
 **UNDERCONSTRUCTION** Until 20220701
